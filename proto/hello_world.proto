@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package test_app;
+
+message HelloReq {
+  string subject = 1;
+}
+
+message HelloResp {
+  string text = 1;
+}
