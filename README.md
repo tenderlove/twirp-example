@@ -25,7 +25,9 @@ This is a test client
 
 ### `server.rb`
 
-This is a test server
+This is a test server.  Unfortunately the server has a few workarounds inside
+it to deal with changes in Rack as well as twirp-ruby directly accessing a
+Google constant.
 
 ## Usage
 
